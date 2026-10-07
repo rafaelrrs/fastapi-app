@@ -99,8 +99,6 @@ def buscar_usuario(
 ):
 
     try:
-        print("========== ENTROU NO ROUTER ==========")
-        x = 10
         return service.buscar_por_id(
             usuario_id
         )
